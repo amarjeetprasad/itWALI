@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="iTWALI. A House of Income Tax Solution.">
+
+    <link rel="stylesheet" type="text/css" href="home/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="icon" href="logo.jpeg" type="image/x-icon">
+
+    <title>Home-iTWALI</title>
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div class="logo-image">
+                <a href="index.html" rel="home"><img width="97" height="97"
+                        src="https://itwali.com/wp-content/uploads/2020/07/l1-77x77.png" alt=""
+                        srcset="https://i2.wp.com/itwali.com/wp-content/uploads/2020/07/l1.png?resize=77%2C77&amp;ssl=1 77w, https://i2.wp.com/itwali.com/wp-content/uploads/2020/07/l1.png?resize=140%2C140&amp;ssl=1 140w, https://i2.wp.com/itwali.com/wp-content/uploads/2020/07/l1.png?w=160&amp;ssl=1 160w"
+                        sizes="(max-width: 77px) 100vw, 77px" /></a>
+            </div>
+            <div class="logo-text">
+                <a href="https://flamboyant-torvalds-c718ad.netlify.app/" rel="home">
+                    <p style="font-size:32px">iTWALI</p>
+                </a>
+                <p style="font-size: 15px;">
+                    A House of Income Tax Solution
+                </p>
+            </div>
+        </div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars" id="burger"></span>
+        </label>
+        <input type="checkbox" id="btn" class="check-box">
+        <ul class="nav-ul">
+            <li class="nav-li"><a href="/">Home</a></li>
+            <li class="nav-li"><a href="/about-us">About Us</a></li>
+            <li class="nav-li"><a href="our-offerings">Our Offerings</a></li>
+            <li class="nav-li">
+                <label for="btn-1" class="show">Knowledge Bank <i class="fas fa-angle-down"></i></label>
+                <a href="/knowledge-bank">Knowledge Bank <i class="fas fa-angle-down" id="angle-down"></i></a>
+                <input type="checkbox" id="btn-1" class="check-box">
+                <ul class="nav-inner-ul">
+                    <li class="nav-inner-li"><a href="/article">Article</a></li>
+                    <li class="nav-inner-li"><a href="/news">News</a></li>
+                    <li class="nav-inner-li"><a href="/notification">Notification</a></li>
+                    <li class="nav-inner-li"><a href="/press-release">Press Release</a></li>
+                    <li class="nav-inner-li"><a href="/judiciany">Judiciany</a></li>
+                    <li class="nav-inner-li"><a href="/circulars">Circulars</a></li>
+                    <li class="nav-inner-li"><a href="/orders">Orders</a></li>
+                    <li class="nav-inner-li"><a href="/instructions">Instructions</a></li>
+                </ul>
+            </li>
+            <li class="nav-li">
+                <label for="btn-2" class="show">My Account <i class="fas fa-angle-down"></i></label>
+                <a href="/my-account">My Account <i class="fas fa-angle-down" id="angle-down"></i></a>
+                <input type="checkbox" id="btn-2" class="check-box">
+                <ul class="nav-inner-ul">
+                    <li class="nav-inner-li"><a href="/login">Login</a></li>
+                    <li class="nav-inner-li"><a href="/registration">Registration</a></li>
+                </ul>
+            </li>
+            <li class="nav-li">
+                <a href="/contact"><button class="contact">Contact</button></a>
+            </li>
+
+            <li class="nav-li sr">
+                <a href="#">
+                    <input type="text" placeholder="Type to Search" class="search-txt" id="a">
+                    <span class="search-icon" onclick="show()">&nbsp;<i class="fas fa-search"></i></span>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="main-txt">
+            <p style="font-size: 20px;">
+                Committed To Helping Our Clients Succeed
+            </p>
+            &nbsp;
+            <p style="font-size: 25px;">
+                All You Need A Reliable source That Helps in dealing With Your Income Tax Planning Matters
+            </p>
+            &nbsp;
+            <hr class="main-hr">
+            &nbsp;
+            <p style="font-size: 20px;">
+                Invest your time and efforts on running your business / profession / job.<br> Leave the all income
+                taxrelatedissues to us.
+            </p>
+        </div>
+
+        <div class="main-slider">
+            <div class="main-carousel" data-flickity='{ "autoPlay": true, "wrapAround": true }'>
+                <div class="main-carousel-cell"><img src="img/honoring-the-honest.jpeg" alt="" class="main-slider-img">
+                </div>
+                <div class="main-carousel-cell"><img src="req.jpg" alt="" class="main-slider-img"></div>
+                <div class="main-carousel-cell"><img src="img/faceless-assessment.jpeg" alt="" class="main-slider-img">
+                </div>
+                <div class="main-carousel-cell"><img src="img/faceless-appeal.jpeg" alt="" class="main-slider-img"></div>
+                <div class="main-carousel-cell"><img src="img/Tax-calculator.jpeg" alt="" class="main-slider-img"></div>
+            </div>
+            <a href="/get-services"><button class="get-services">Get Services</button></a>
+        </div>
+
+    </div>
+
+    <div class="slider">
+        <div class="slider-main">
+            <br>
+            <div class="slider-header">Our Offerings</div>
+            <div class="carousel" data-flickity='{ "autoPlay": true,"wrapAround": true}'>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/itr filing.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>ITR Filing</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/communication with I.T. Department.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Communication<br> with I.T. Department</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/accounting services.png" alt="" class="slider-img">
+                        <br>
+                        <span>Accounting Services</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/capital gain.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Capatial Gain</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/cs service1.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Company Secratary<bR> Services</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/refund.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Refund</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/tds.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>TDS</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/reg.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Registration</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/payroll.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Salary Issue</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/rectification.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Rectification</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/pan-card.png" alt="" class="slider-img">
+                        <br>
+                        <span>PAN CARD</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/tax payment.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Tax Payment</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/audit.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Audit</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/form 16.JPG" alt="" class="slider-img">
+                        <br>
+                        <span>Form 16 Issuance</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/slider/rti.jpg" alt="" class="slider-img">
+                        <br>
+                        <span>RTI</span>
+                    </a>
+                </div>
+                <div class="carousel-cell">
+                    <a href="/our-offerings" class="image-link">
+                        <img src="img/faceless-appeal.jpeg" alt="" class="slider-img">
+                        <br>
+                        <span>Appeal</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="other">
+
+        <div class="post" id="english">
+            <div class="button">
+                <button id="button1" onclick="hide1()">हिंदी में देखें</button>
+            </div>
+
+            <div class="know-bank">
+                <p class="know-header">Latest Article</p>
+                <div class="know-main">
+                    <div class="know-box">
+                        <a href="/article" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="/article" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="/article" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="/article" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="/article" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="know-bank">
+                <p class="know-header">Other Posts</p>
+                <div class="know-main">
+                    <div class="know-box">
+                        <a href="/post" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="/post" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="/post" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="/post" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="/post" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="post" id="hindi" style="display: none;">
+            <div class="button">
+                <button id="button2" onclick="hide2()">View in English</button>
+            </div>
+            <div class="know-bank">
+                <p class="know-header">नवीनतम लेख</p>
+                <div class="know-main">
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/Medical-facility.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="know-bank">
+                <p class="know-header">अन्य पोस्ट</p>
+                <div class="know-main">
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="know-box">
+                        <a href="#" class="know-box-link">
+                            <div class="know-box-content">
+                                <img src="img/cal/income-and-tax-calculator.jpeg" alt="">
+                                <div class="know-box-content-txt">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools">
+            <div class="slider-header">
+                Income Tax Tools & Calculator
+            </div>
+            <div class="tools-main">
+                <div class="tools-box">
+                    <a href="#" class="image-link">
+                        <img src="img/cal/income-and-tax-calculator.jpeg" alt="" class="slider-img tools-img">
+                        <br>
+                        <span>Income and<br> Tax Calculator</span>
+                    </a>
+                </div>
+                <div class="tools-box">
+                    <a href="#" class="image-link">
+                        <img src="img/cal/House-rent-allowance.jpeg" alt="" class="slider-img tools-img">
+                        <br>
+                        <span>House Rent Allowance</span>
+                    </a>
+                </div>
+                <div class="tools-box">
+                    <a href="#" class="image-link">
+                        <img src="img/cal/Advance tax.png" alt="" class="slider-img tools-img">
+                        <br>
+                        <span>Advance Tax</span>
+                    </a>
+                </div>
+                <div class="tools-box">
+                    <a href="#" class="image-link">
+                        <img src="img/cal/children education and hostel allowance.JPG" alt=""
+                            class="slider-img tools-img">
+                        <br>
+                        <span>Children Education and<br>Hostel Allowance</span>
+                    </a>
+                </div>
+                <div class="tools-box">
+                    <a href="#" class="image-link">
+                        <img src="img/cal/Medical-facility.jpeg" alt="" class="slider-img tools-img">
+                        <br>
+                        <span>Medical Facilities</span>
+                    </a>
+                </div>
+                <div class="tools-box">
+                    <a href="#" class="image-link">
+                        <img src="img/Tax-calculator.jpeg" alt="" class="slider-img tools-img">
+                        <br>
+                        <span>More Tax Calculator</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="box-title">
+            <h2>This is why</h2>
+            <h1>We Should Work Together</h1>
+
+        </div>
+
+        <div class="all-box">
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i class="fa fa-search fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>Always on Time</h3>
+                    <br>
+                    We deliver our result always at time
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i class="fas fa-check fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>Hard Working</h3>
+                    <br>
+                    Our dedicated team is bound by time line so we don't hesitate in working round the clock.
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i aria-hidden="true" class="fas fa-calendar-alt fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>24/7 Availability</h3>
+                    <br>
+                    We are always available for serving our clients.
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i class="fas fa-user-tie fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>Professional Team</h3>
+                    <br>
+                    Our Team is consist of professional expert people who always gives fruitful result.
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i aria-hidden="true" class="fas fa-phone-volume fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>Our Support</h3>
+                    <br>
+                    We are always available to help you in any case. We always try to resolve your queries with time
+                    bound
+                    limit.
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i aria-hidden="true" class="fas fa-database fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>Our Technology</h3>
+                    <br>
+                    We believe in learning and changes. We always keep on updating our system to make every thing
+                    easy for
+                    our clients.
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i aria-hidden="true" class="fas fa-money-check-alt fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>Maximum Profitability</h3>
+                    <br>
+                    We always try to give the maximum benefit to our clients so that they can maximize their
+                    profitability.
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i aria-hidden="true" class="fas fa-question fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>Classified Transactions</h3>
+                    <br>
+                    Your information is 100% safe with us. We don't share any information of our client in any case.
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <div class="fontawesome-icon">
+                        <i aria-hidden="true" class="fas fa-bullseye fa-4x"></i>
+                    </div>
+                    <br>
+                    <h3>Always Accurate</h3>
+                    <br>
+                    Our dedicated team always work with utmost care and very careful in all work. Therefore, we
+                    are always
+                    accurate.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="update-background">
+        <div class="update">
+            <div class="update-text">
+                <h1>Reach Us for All your Income Tax Issue</h1>
+
+                Please feel free to contact us and raise your query here. We are 24/7 hours available at your service.
+            </div>
+            <div class="submit">
+                <button class="submit-button">Submit Query</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="footer">
+                <li class="footer-list">
+                    <ul class="inner-footer">
+                        <li class="inner-footer-list bl">itWali LLP</li>
+                        <hr class="footer-hr">
+                        <br>
+                        <li class="inner-footer-list"><a href="#">About us</a></li>
+                        <li class="inner-footer-list"><a href="#">Testimonils</a></li>
+                        <li class="inner-footer-list"><a href="#">Sitemap</a></li>
+                        <li class="inner-footer-list"><a href="#">Terms & Condition</a></li>
+                        <li class="inner-footer-list"><span class="subs">Subscribe Us</span></li>
+                        <li class="inner-footer-list"><a href="#">Privacy Policy</a></li>
+                        <li class="inner-footer-list"><a href="#">Disclamer</a></li>
+                    </ul>
+                </li>
+                <li class="footer-list">
+                    <ul class="inner-footer">
+                        <li class="inner-footer-list bl">Our Offering</li>
+                        <hr class="footer-hr">
+                        <br>
+                        <li class="inner-footer-list"><a href="#">Individual</a></li>
+                        <li class="inner-footer-list"><a href="#">Business</a></li>
+                        <li class="inner-footer-list"><a href="#">Company Secratory Service</a></li>
+                        <li class="inner-footer-list"><a href="#">Audit</a></li>
+                        <li class="inner-footer-list"><a href="#">Appeal</a></li>
+                        <li class="inner-footer-list"><a href="#">Accounting</a></li>
+                    </ul>
+                </li>
+                <li class="footer-list">
+                    <ul class="inner-footer">
+                        <li class="inner-footer-list bl">Important Links</li>
+                        <hr class="footer-hr">
+                        <br>
+                        <li class="inner-footer-list"><a href="#">Refund Tracking</a></li>
+                        <li class="inner-footer-list"><a href="#">PAN Status</a></li>
+                        <li class="inner-footer-list"><a href="#">Tax Calander</a></li>
+                        <li class="inner-footer-list"><a href="#">Challens</a></li>
+                        <li class="inner-footer-list"><a href="#">Tax Rates</a></li>
+                        <li class="inner-footer-list"><a href="#">TOS Return</a></li>
+                    </ul>
+                </li>
+                <li class="footer-list">
+                    <ul class="inner-footer">
+                        <li class="inner-footer-list bl">Other Links</li>
+                        <hr class="footer-hr">
+                        <br>
+                        <li class="inner-footer-list"><a href="#">Knowledge Bank</a></li>
+                        <li class="inner-footer-list"><a href="#">Tax Calculator</a></li>
+                        <li class="inner-footer-list"><a href="#"><i class="fab fa-facebook-square fa-2x"></i>
+                                Facebook</a></li>
+                        <li class="inner-footer-list"><a href="#"><i class="fab fa-twitter-square fa-2x"></i>
+                                Twitter</a></li>
+                        <li class="inner-footer-list"><a href="#"><i class="fab fa-linkedin fa-2x"></i> Linkdin</a></li>
+                        <li class="inner-footer-list"><a href="#"><i class="fab fa-whatsapp-square fa-2x"></i>
+                                Whatsapp</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="last">
+            Copyright © 2020 itwali.com
+        </div>
+
+    </footer>
+
+    <a class="go-up" href="#">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <div class="popup">
+        <button class="cancle"><i class="fas fa-times"></i>
+        </button>
+        <div class="popup-content">
+            <h2 class="sub-text">Subscribe for Lastest Updates</h2>
+            <input name="enter-id" type="email" placeholder="user@email.com" class="subscribe">
+            <button class="submit-button">Subscribe</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
